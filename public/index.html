@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Gestational Diabetes Tracker </h1>
+    </header>
+
+    <main>
+      
+            <section id="entry-section">
+                <h2>Enter Glucose Reading</h2>
+                <table>
+                    <tr>
+                        <td>
+                            <!-- HTML form for CRUD operation -->
+                            <form  autocomplete="off">
+                                <div>
+                                    <label for="fullName"><strong>Full Name</strong> </label>
+                                    <input type="text" name="fullName" id="fullName">
+                                </div>
+                                <h2>Reading</h2>
+                                <div>
+                                    <label for="day">Day</label>
+                                    <input type="number" name="day" id="day">
+                                </div>
+                                <br>
+                                <div>
+                                    <label for="beforeBreakfast">Before Breakfast</label>
+                                    <input type="number" name="beforeBreakfast" id="beforeBreakfast">
+                                </div>
+                                <br>
+                                <div>
+                                    <label for="afterBreakfast">After Breakfast</label>
+                                    <input type="number" name="afterBreakfast" id="afterBreakfast">
+                                </div>
+                                <br>
+                                <div>
+                                    <label for="beforeLunch">Before Lunch</label>
+                                    <input type="number" name="beforeLunch" id="beforeLunch">
+                                </div>
+                                <br>
+                                <div>
+                                    <label for="afterLunch">After Lunch</label>
+                                    <input type="number" name="afterLunch" id="afterLunch">
+                                </div>
+                                <br>
+                                <div>
+                                    <label for="beforeDinner">Before Dinner</label>
+                                    <input type="number" name="beforeDinner" id="beforeDinner">
+                                </div>
+                                <br>
+                                <div>
+                                    <label for="afterDinner">After Dinner</label>
+                                    <input type="number" name="afterDinner" id="afterDinner">
+                                </div>
+                                <br>
+                                <div class="form-action-button">
+                                    <input type="submit" value="Submit">
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+
+                <section id="user-container"></section>
+            </section>
+
+            <section id="summary-section">
+                <div class="summary-box" id="summary"></div> <!-- Add the summary section -->
+                <button id="summaryBtn">Calculate Average</button> <!-- Add the button here if needed -->
+            </section>
+       
+        
+        <table class="list" id="dataList">
+            <thead>
+                <tr>
+                    <th>Full Name</th>
+                    <th>Day</th>
+                    <th>Before Breakfast</th>
+                    <th>After Breakfast</th>
+                    <th>Before Lunch</th>
+                    <th>After Lunch</th>
+                    <th>Before Dinner</th>
+                    <th>After Dinner</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </main>
+    <br>
+    <br>
+
+    <button><a href="./home.html"> Back to  homepage </a> </button>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="./main.js"></script>
+</body>
+</html

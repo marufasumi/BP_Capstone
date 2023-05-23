@@ -1,0 +1,27 @@
+
+ [
+    {
+      "id": 1,
+      "fullName": "Marufa Sumi",
+      "day": 1,
+      "beforeBreakfast": 120,
+      "afterBreakfast": 123,
+      "beforeLunch": 123,
+      "afterLunch": 123,
+      "beforeDinner": 123,
+      "afterDinner": 124
+    },
+    {
+        "id": 2,
+        "fullName": "Marufa Sumi",
+        "day": 2,
+        "beforeBreakfast": 120,
+        "afterBreakfast": 123,
+        "beforeLunch": 123,
+        "afterLunch": 123,
+        "beforeDinner": 123,
+        "afterDinner": 124
+      }
+
+
+  ]
